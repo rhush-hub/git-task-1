@@ -1,3 +1,4 @@
 ﻿/app/bin/
 /app/build/
 *.class
+.gradle/
