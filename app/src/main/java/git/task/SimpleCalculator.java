@@ -50,13 +50,13 @@ public class SimpleCalculator {
                 }
                 break;
             case "%":
-                // Modulo is most meaningful with integers; we’ll cast and warn if non-integers
+                // Module is most meaningful with integers; we’ll cast and warn if non-integers
                 // were provided
                 if (b == 0) {
                     System.out.println("Error: Modulo by zero is not allowed.");
                 } else {
                     if (a % 1 != 0 || b % 1 != 0) {
-                        System.out.println("Note: Modulo is applied to integer parts only.");
+                        System.out.println("Note: Module is applied to integer parts only.");
                     }
                     long ai = (long) a;
                     long bi = (long) b;
